@@ -40,3 +40,32 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-valid {
     display: none;
 }
+
+.body {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    top: 5%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    z-index: 0;
+}
+
+.overlay {
+    background-color: #3b4a82;
+    background-repeat: no-repeat;
+    background-image: url("images/header-bg.0M4Ei.jpg");
+    background-position: center -100px;
+    position: relative;
+    padding: 0;
+    padding-top: 800px;
+}
+
+#background_image {
+    
+
+}
+
