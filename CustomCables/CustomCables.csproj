@@ -176,9 +176,12 @@
     <Content Include="Content\images\header-bg.0M4Ei.jpg" />
     <Content Include="Content\images\headphones\350x700px-LL-a51efc95_img_30753-sized.png" />
     <Content Include="Content\images\headphones\alpha-dog-sized.png" />
+    <Content Include="Content\images\headphones\ath_msr7_ltd-sized.png" />
+    <Content Include="Content\images\headphones\dsc_3524-sized.png" />
+    <Content Include="Content\images\headphones\HD650_hires-sized.png" />
+    <Content Include="Content\images\headphones\HD800-xlarge-sized.png" />
+    <Content Include="Content\images\headphones\HE-400-sized.png" />
     <Content Include="Content\images\headphones\HiFiMAN-HE-400i_P_1200-sized.png" />
-    <Content Include="Content\images\headphones\Open3-Sennheiser-HD650-sized.png" />
-    <Content Include="Content\images\headphones\Open3-Sennheiser-HD650.png" />
     <Content Include="Content\images\headphones\Sennheiser-HD-800-sized.png" />
     <Content Include="Content\images\icon-portrait.2xO5g.png" />
     <Content Include="favicon.ico" />
