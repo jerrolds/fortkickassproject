@@ -30,13 +30,9 @@
     </div>
 
 </div>
-<div style="width: 80%; margin: auto;">
-    <a href="http://www.google.com" class="portrait-link" id="hifiman"></a>
-    <a href="http://www.google.com" class="portrait-link" id="hd800"></a>
-    <a href="http://www.google.com" class="portrait-link" id="hd650"></a>
-    <a href="http://www.google.com" class="portrait-link" id="alpha-dog"></a>
-    <a href="http://www.google.com" class="portrait-link" id="audio-technica"></a>
-</div>
+@{
+    Html.RenderPartial("_HeadphoneSelect");    
+}
 <div class="row">
     <div class="col-md-4">
         <h2 id="test">Getting started</h2>
