@@ -52,6 +52,7 @@ input[type="checkbox"].input-validation-error {
     right: 0;
     bottom: 80px;
     z-index: 0;
+    font-family: Futura,"century gothic",arial,sans-serif;
 }
 
 .overlay {
@@ -64,8 +65,58 @@ input[type="checkbox"].input-validation-error {
     padding-top: 800px;
 }
 
+.selection-wrap{
+    position: relative;
+    left: -1%;
+    margin: auto;
+}
+.selection-wrap {
+    display: inline;
+}
+.selection-link {
+    display: block;
+}
+
+.selection-item {
+    
+}
+.selection-item a {
+    color: #ffc70e;
+    transition: 200ms color ease;
+
+}
+
+.portrait-link {
+    height: 125px; 
+    width: 125px; 
+    background-position: 0; 
+    background-repeat: no-repeat; 
+    display: inline-block;
+}
+
+#hifiman {
+    background-image: url('images/headphones/HiFiMAN-HE-400i_P_1200-sized.jpg');
+}
+
+#hd800 {
+    background-image: url('images/headphones/Sennheiser-HD-800-sized.png');
+}
+
+#hd650 {
+    background-image: url('images/headphones/Open3-Sennheiser-HD650-sized.jpg');
+}
+#alpha-dog {
+    background-image: url('images/headphones/alpha-dog-sized.jpg');
+}
+#audio-technica {
+    background-image: url('images/headphones/350x700px-LL-a51efc95_img_30753-sized.jpg');
+}
+
 #background_image {
     
 
 }
 
+#test {
+    font-family: Futura, "century gothic", arial, sans-serif;
+}

@@ -171,9 +171,15 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\background.png" />
     <Content Include="Content\images\header-bg-blurred.1tBuK.jpg" />
     <Content Include="Content\images\header-bg.0M4Ei.jpg" />
-    <Content Include="Content\images\headphones\Sennheiser-HD-800-.jpg" />
+    <Content Include="Content\images\headphones\350x700px-LL-a51efc95_img_30753-sized.jpg" />
+    <Content Include="Content\images\headphones\alpha-dog-sized.jpg" />
+    <Content Include="Content\images\headphones\HiFiMAN-HE-400i_P_1200-sized.jpg" />
+    <Content Include="Content\images\headphones\Open3-Sennheiser-HD650-sized.jpg" />
+    <Content Include="Content\images\headphones\Sennheiser-HD-800-sized.png" />
+    <Content Include="Content\images\icon-portrait.2xO5g.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

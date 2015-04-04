@@ -2,6 +2,22 @@
     ViewBag.Title = "Home Page";
 }
 
+
+<script type="text/javascript">
+    $("li").hover(
+      function () {
+          $(this).append($("<span> ***</span>"));
+      }, function () {
+          $(this).find("span:last").remove();
+      }
+    );
+
+    $("li.fade").hover(function () {
+        $(this).fadeOut(100);
+        $(this).fadeIn(500);
+    });
+</script>
+
 @*<div class="jumbotron">
     <h1>Sentinel Cables</h1>
     <p class="lead"></p>
@@ -10,12 +26,20 @@
 </div>*@
 
 <div class="overlay">
-    <div id="background_image"></div>
-</div>
+    <div id="background_image">
+    </div>
 
+</div>
+<div style="width: 80%; margin: auto;">
+    <a href="http://www.google.com" class="portrait-link" id="hifiman"></a>
+    <a href="http://www.google.com" class="portrait-link" id="hd800"></a>
+    <a href="http://www.google.com" class="portrait-link" id="hd650"></a>
+    <a href="http://www.google.com" class="portrait-link" id="alpha-dog"></a>
+    <a href="http://www.google.com" class="portrait-link" id="audio-technica"></a>
+</div>
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2 id="test">Getting started</h2>
         <p>
             ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
             enables a clean separation of concerns and gives you full control over markup
