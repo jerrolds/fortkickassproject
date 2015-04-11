@@ -2,21 +2,24 @@
     ViewBag.Title = "Home Page";
 }
 
-
 <script type="text/javascript">
-    $("li").hover(
-      function () {
-          $(this).append($("<span> ***</span>"));
-      }, function () {
-          $(this).find("span:last").remove();
-      }
-    );
+    
+    $(document).ready(function () {
+        $("#foo").slideme({
+            arrows: false,
+            pagination: 'thumbs',
+            autoslide: false,
+            css3: true,
+            speed: 500, 
+            resizable: {
+                width: 990,
+                height: 450
+            }
+        });
 
-    $("li.fade").hover(function () {
-        $(this).fadeOut(100);
-        $(this).fadeIn(500);
     });
 </script>
+
 
 @*<div class="jumbotron">
     <h1>Sentinel Cables</h1>
@@ -32,6 +35,14 @@
 @{
     Html.RenderPartial("_HeadphoneSelect");
 }
+
+<div id="foo">
+    <ul class="slideme">
+        <li><img src="../../Content/images/headphones/alpha-dog-sized.png" /></li>
+        <li><img src="../../Content/images/headphones/dsc_3524-sized.png"  /></li>
+        <li><img src="../../Content/images/headphones/HD650_hires-sized.png"  /></li>
+    </ul>
+</div>
 
 <div class="row">
     <div class="col-md-4">

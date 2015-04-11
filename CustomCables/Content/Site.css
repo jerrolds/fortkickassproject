@@ -132,3 +132,10 @@ input[type="checkbox"].input-validation-error {
 .portrait-div .portrait-label {
     text-align: center;
 }
+
+.slideme {
+    max-width: 990px;
+    max-height: 450px;
+    width: 100%;
+    height: 100%;
+}

@@ -184,6 +184,7 @@
     <Content Include="Content\images\headphones\HiFiMAN-HE-400i_P_1200-sized.png" />
     <Content Include="Content\images\headphones\Sennheiser-HD-800-sized.png" />
     <Content Include="Content\images\icon-portrait.2xO5g.png" />
+    <Content Include="Content\slideme.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -191,10 +192,10 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\fortkickassproject.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.11.2.min.js" />
+    <Content Include="Scripts\jquery.slideme-1.21.71.js" />
+    <Content Include="Scripts\jquery.slideme2.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
